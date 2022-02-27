@@ -1,0 +1,126 @@
+"flood"
+{
+    "base"      "base"
+    "title"     "Flood"
+	"category"	"pvp"
+    "maps"		"^fm_"
+    "menusystem"	"1"
+	"workshopid"	"2766690538"
+	
+	"settings"
+	{
+		1
+		{
+			"name"		"flood_build_time"
+			"text"		"Building Time (def: 300)"
+			"help"		"Time allowed for building (def: 300)"
+			"type"		"Numeric"
+			"default"	"300"
+		}
+		2
+		{
+			"name"		"flood_flood_time"
+			"text"		"Rising Time (def: 20)"
+			"help"		"Time between build phase and fight phase (def: 20)"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+		3
+		{
+			"name"		"flood_fight_time"
+			"text"		"Fighting Time (def: 360)"
+			"help"		"Time allowed for fighting (def: 360)"
+			"type"		"Numeric"
+			"default"	"360"
+		}
+		4
+		{
+			"name"		"flood_reset_time"
+			"text"		"Reset Time (def: 40)"
+			"help"		"Time after fight phase to allow water to drain and other ending tasks (def: 40 - Dont recommend changing)"
+			"type"		"Numeric"
+			"default"	"40"
+		}
+		5
+		{
+			"name"		"flood_participation_cash"
+			"text"		"Participation Cash (def: 40)"
+			"help"		"Amount of cash given to a player every 5 seconds of being alive (def: 40)"
+			"type"		"Numeric"
+			"default"	"40"
+		}
+		6
+		{
+			"name"		"flood_bonus_cash"
+			"text"		"Bonus Cash (def: 4000)"
+			"help"		"Amount of cash given to the winner of a round (def: 4000)"
+			"type"		"Numeric"
+			"default"	"4000"
+		}
+		7
+		{
+			"name"		"flood_wh_damage"
+			"text"		"Water Damage (def: 15)"
+			"help"		"How much damage a player takes per cycle (def: 15)"
+			"type"		"Numeric"
+			"default"	"15"
+		}
+		8
+		{
+			"name"		"flood_max_player_props"
+			"text"		"Max Player Props (def: 20)"
+			"help"		"How many props a player can spawn (def: 20)"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+		9
+		{
+			"name"		"flood_max_admin_props"
+			"text"		"Max Admin Props (def: 40)"
+			"help"		"How many props an admin can spawn (def: 40)"
+			"type"		"Numeric"
+			"default"	"40"
+		}
+		10
+		{
+			"name"		"sbox_maxballoons"
+			"text"		"max_balloons"
+			"help"		"Maximum balloons a single player can create"
+			"type"		"Numeric"
+			"default"	"100"
+		}
+		11
+		{
+			"name"		"sbox_maxcameras"
+			"text"		"max_cameras"
+			"help"		"Maximum cameras a single player can create"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		12
+		{
+			"name"		"sbox_maxlights"
+			"text"		"max_lights"
+			"help"		"Maximum lights a single player can create"
+			"type"		"Numeric"
+			"default"	"5"
+		}
+		13
+		{
+			"name"		"sbox_maxthrusters"
+			"text"		"max_thrusters"
+			"help"		"Maximum thrusters a single player can create"
+			"type"		"Numeric"
+			"default"	"50"
+		}
+		14
+		{
+			"name"		"gmod_maxammo"
+			"text"		"gmod_maxammo"
+			"help"		"Forces amount of maximum ammo reserves for all weapons of each player. Values 0 and below mean use weapon's ammo type maximum ammo setting instead."
+			"type"		"Numeric"
+			"default"	"9999"
+			"dontcreate"	"1"
+		}
+	}
+}
