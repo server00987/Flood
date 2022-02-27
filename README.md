@@ -18,7 +18,10 @@ This Gamemode developed based on the Flood 2.0
 Put the file in the gamemodes and have fun!
 
 ## Customise weapons and props
-Modifications `sh_shoplist.lua`
+Modify the contents of `sh_shoplist.lua`
+
+## Unlock tools
+Modify the contents of `sh_shoplist.lua`
 
 ## Workshop
 https://steamcommunity.com/sharedfiles/filedetails/?id=2766690538
