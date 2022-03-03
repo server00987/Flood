@@ -42,7 +42,7 @@ CreateConVar("flood_reset_time", 40, FCVAR_NOTIFY, "Time after fight phase to al
 
 -- Cash Convars
 CreateConVar("flood_participation_cash", 40, FCVAR_NOTIFY, "Amount of cash given to a player every 5 seconds of being alive (def: 40)")
-CreateConVar("flood_bonus_cash", 4000, FCVAR_NOTIFY, "Amount of cash given to the winner of a round (def: 4000)")
+CreateConVar("flood_bonus_cash", 2000, FCVAR_NOTIFY, "Amount of cash given to the winner of a round (def: 2000)")
 
 -- Water Hurt System
 CreateConVar("flood_wh_enabled", 1, FCVAR_NOTIFY, "Does the water hurt players - 1=true 2=false (def: 1)")
@@ -52,6 +52,9 @@ CreateConVar("flood_wh_damage", 15, FCVAR_NOTIFY, "How much damage a player take
 CreateConVar("flood_max_player_props", 20, FCVAR_NOTIFY, "How many props a player can spawn (def: 20)")
 CreateConVar("flood_max_donator_props", 30, FCVAR_NOTIFY, "How many props a donator can spawn (def: 30)")
 CreateConVar("flood_max_admin_props", 40, FCVAR_NOTIFY, "How many props an admin can spawn (def: 40)")
+
+-- Shooting underwater
+CreateConVar("flood_arccw_shootunderwater", 1, FCVAR_NOTIFY, "Activate shooting underwater - 1=true 2=false (def: 1)")
 
 function GM:Initialize()
 	self.ShouldHaltGamemode = false
@@ -108,7 +111,7 @@ function GM:EntityTakeDamage(ent, dmginfo)
 					if attacker:GetActiveWeapon():GetClass() == "flood_arccw_waw_nambu" then
 						ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") - 1)
 					elseif attacker:GetActiveWeapon():GetClass() == "weapon_crowbar" then
-						ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") - 10)
+						ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") - 20)
 					else
 						for _, Weapon in pairs(Flood_Weapons) do
 							if attacker:GetActiveWeapon():GetClass() == Weapon.Class then
