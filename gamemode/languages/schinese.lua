@@ -9,8 +9,6 @@ Flood Translation Guideline
 4. Please use English instead if untranslated or untranslatable.
 --]]
 
---[[ Simplified Chinese translation by Pathfinder_FUFU ]]--
-
 translate.AddLanguage("zh-CN", "Simplified Chinese")
 
 -- HUD
@@ -21,9 +19,6 @@ LANGUAGE["HUD_Destroy_enemy_boats"] = "摧毁敌人的船只"
 LANGUAGE["HUD_Restarting_the_round"] = "正在重置回合"
 LANGUAGE["HUD_Name"] = "名字: "
 LANGUAGE["HUD_Health"] = "生命值: "
-LANGUAGE["HUD_Ammo"] = "弹药"
-LANGUAGE["HUD_Doesnt_Use_Ammo"] = "不使用子弹"
-LANGUAGE["HUD_No_Ammo"] = "没有子弹"
 LANGUAGE["HUD_Unarmed"] = "没有武器"
 LANGUAGE["HUD_Youre_Dead"] = "你已经死了"
 LANGUAGE["HUD_killed"] = "被杀死"
