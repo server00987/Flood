@@ -154,7 +154,8 @@ function FloodMainHUD()
 	    draw.RoundedBox(8, 158, ScrH() - 118, 215, 25, color_light_grey)
 		draw.RoundedBox(8, 162, ScrH() - 114, pHealth * 2.07, 18, Color(200, 10, 10, 255))
 		draw.SimpleText(math.Max(pHealth, 0),"Flood_HUD_B", 203 * 1.3, ScrH() - 106, color_snow, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-		
+	
+		-- Ammo
 		if IsValid(LocalPlayer():GetActiveWeapon()) then
 			if LocalPlayer():GetAmmoCount(LocalPlayer():GetActiveWeapon():GetPrimaryAmmoType()) > 0 or LocalPlayer():GetActiveWeapon():Clip1() > 0 then
 				local wBulletCount = LocalPlayer():GetActiveWeapon():Clip1()
