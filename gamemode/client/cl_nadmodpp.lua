@@ -133,6 +133,8 @@ function NADMOD.AdminPanel(Panel, runByNetReceive)
 	Panel:Button(translate.Get("NADMOD_Cleanup_All_NPCs"), 			"nadmod_cleanclass", "npc_*")
 	Panel:Button(translate.Get("NADMOD_Cleanup_All_Ragdolls"), 		"nadmod_cleanclass", "prop_ragdol*")
 	Panel:Button(translate.Get("NADMOD_Cleanup_Clientside_Ragdolls"), "nadmod_cleanclragdolls")
+
+	Panel:DockPadding(0, 0, 0, 10)
 end
 
 net.Receive("nadmod_ppfriends",function(len)
@@ -176,6 +178,7 @@ function NADMOD.ClientPanel(Panel)
 			end
 		end
 		Panel:Button(translate.Get("NADMOD_Apply_Friends"), "npp_applyfriends")
+		Panel:DockPadding(0, 0, 0, 10)
 	end
 end
 

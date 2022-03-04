@@ -147,12 +147,6 @@ function FloodMainHUD()
 		draw.RoundedBox(20, 10, ScrH() - 30, 370, 20, color_dark_blue)
 		draw.RoundedBox(0, 10, ScrH() - 124, 370, 100, color_dark_blue)
 		
-		-- Right Rounded Box
-		draw.RoundedBox(20, ScrW() - 170, ScrH() - 104, 160, 20, color_blue)
-		draw.RoundedBox(0, ScrW() - 170, ScrH() - 94, 160, 20, color_blue)
-		draw.RoundedBox(20, ScrW() - 170, ScrH() - 30, 160, 20, color_dark_blue)
-		draw.RoundedBox(0, ScrW() - 170, ScrH() - 84, 160, 60, color_dark_blue)
-		
 		-- Health
 		local pHealth = LocalPlayer():Health()
 		
@@ -162,19 +156,19 @@ function FloodMainHUD()
 		draw.SimpleText(math.Max(pHealth, 0),"Flood_HUD_B", 203 * 1.3, ScrH() - 106, color_snow, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	
 		-- Ammo
-		draw.SimpleText(translate.Get("HUD_Ammo"), "Flood_HUD", ScrW() - 94, ScrH() - 94, color_snow, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-		
 		if IsValid(LocalPlayer():GetActiveWeapon()) then
 			if LocalPlayer():GetAmmoCount(LocalPlayer():GetActiveWeapon():GetPrimaryAmmoType()) > 0 or LocalPlayer():GetActiveWeapon():Clip1() > 0 then
 				local wBulletCount = LocalPlayer():GetActiveWeapon():Clip1()
 				local wBulletCount2 = LocalPlayer():GetAmmoCount(LocalPlayer():GetActiveWeapon():GetPrimaryAmmoType())
 
+				-- Right Rounded Box
+				draw.RoundedBox(20, ScrW() - 170, ScrH() - 104, 160, 20, color_blue)
+				draw.RoundedBox(0, ScrW() - 170, ScrH() - 94, 160, 20, color_blue)
+				draw.RoundedBox(20, ScrW() - 170, ScrH() - 30, 160, 20, color_dark_blue)
+				draw.RoundedBox(0, ScrW() - 170, ScrH() - 84, 160, 60, color_dark_blue)
+
 				draw.SimpleText(wBulletCount .. "/" .. wBulletCount2, "Flood_HUD_D", ScrW() - 125, ScrH() - 65, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
-			else
-				draw.SimpleText(translate.Get("HUD_Doesnt_Use_Ammo"), "Flood_HUD_B", ScrW() - 90, ScrH() - 50, color_snow, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 			end
-		else
-		    draw.SimpleText(translate.Get("HUD_No_Ammo"), "Flood_HUD_B", ScrW() - 90, ScrH() - 50, color_snow, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 
 		-- Cash
