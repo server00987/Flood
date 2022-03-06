@@ -88,47 +88,47 @@ function FloodMainHUD()
 
 	if BuildTimer and FloodTimer and FightTimer and ResetTimer then
 		if GameState == 0 then
-		    draw.RoundedBox(0, 10, ScrH() - 210, 260, 50, color_blue)
-			draw.RoundedBox(0, 15, ScrH() - 205, 250, 40, color_dark_blue)
+		    draw.RoundedBox(0, 10, ScrH() - 210, 370, 50, color_blue)
+			draw.RoundedBox(0, 15, ScrH() - 205, 360, 40, color_dark_blue)
 			
 			draw_Picon(20, ScrH() - 201, 32, 32, color_icon, flood_icon_wait)
 			draw.SimpleText(translate.Get("HUD_Waiting_for_players"), "Flood_HUD_C", 60, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
 		end
 		
 		if GameState == 1 then
-            draw.RoundedBox(0, 10, ScrH() - 210, 260, 50, color_blue)
-			draw.RoundedBox(0, 15, ScrH() - 205, 250, 40, color_dark_blue)
+            draw.RoundedBox(0, 10, ScrH() - 210, 370, 50, color_blue)
+			draw.RoundedBox(0, 15, ScrH() - 205, 360, 40, color_dark_blue)
 			
 			draw_Picon(20, ScrH() - 201, 32, 32, color_icon, flood_icon_build)
 			draw.SimpleText(translate.Get("HUD_Build_a_boat"), "Flood_HUD_C", 60, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
-			draw.SimpleText(BuildTimer, "Flood_HUD_C", 230, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
+			draw.SimpleText(BuildTimer, "Flood_HUD_C", 340, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
 		end
 
 		if GameState == 2 then
-            draw.RoundedBox(0, 10, ScrH() - 210, 260, 50, color_blue)
-			draw.RoundedBox(0, 15, ScrH() - 205, 250, 40, color_dark_blue)
+            draw.RoundedBox(0, 10, ScrH() - 210, 370, 50, color_blue)
+			draw.RoundedBox(0, 15, ScrH() - 205, 360, 40, color_dark_blue)
 			
 			draw_Picon(20, ScrH() - 201, 32, 32, color_icon, flood_icon_in)
 			draw.SimpleText(translate.Get("HUD_Get_on_your_boat"), "Flood_HUD_C", 60, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
-			draw.SimpleText(floodTimer, "Flood_HUD_C", 230, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
+			draw.SimpleText(floodTimer, "Flood_HUD_C", 340, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
 		end
 		
 		if GameState == 3 then
-            draw.RoundedBox(0, 10, ScrH() - 210, 260, 50, color_blue)
-			draw.RoundedBox(0, 15, ScrH() - 205, 250, 40, color_dark_blue)
+            draw.RoundedBox(0, 10, ScrH() - 210, 370, 50, color_blue)
+			draw.RoundedBox(0, 15, ScrH() - 205, 360, 40, color_dark_blue)
 			
 			draw_Picon(20, ScrH() - 201, 32, 32, color_icon, flood_icon_fight)
 			draw.SimpleText(translate.Get("HUD_Destroy_enemy_boats"), "Flood_HUD_C", 60, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
-			draw.SimpleText(FightTimer, "Flood_HUD_C", 230, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
+			draw.SimpleText(FightTimer, "Flood_HUD_C", 340, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
 		end
 
 		if GameState == 4 then
-            draw.RoundedBox(0, 10, ScrH() - 210, 260, 50, color_blue)
-			draw.RoundedBox(0, 15, ScrH() - 205, 250, 40, color_dark_blue)
+            draw.RoundedBox(0, 10, ScrH() - 210, 370, 50, color_blue)
+			draw.RoundedBox(0, 15, ScrH() - 205, 360, 40, color_dark_blue)
 			
 			draw_Picon(20, ScrH() - 201, 32, 32, color_icon, flood_icon_restart)
 			draw.SimpleText(translate.Get("HUD_Restarting_the_round"), "Flood_HUD_C", 60, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
-			draw.SimpleText(ResetTimer, "Flood_HUD_C", 230, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
+			draw.SimpleText(ResetTimer, "Flood_HUD_C", 340, ScrH() - 195, color_snow, TEXT_ALIGN_LEFT, TEXT_ALIGN_LEFT)
 		end
 	end
 
