@@ -264,24 +264,24 @@ Flood_Weapons[30] = {Model = "models/weapons/arccw/w_bo2_s12.mdl", Group = 2, Cl
 Flood_Weapons[31] = {Model = "models/weapons/arccw/w_bo2_m1216.mdl", Group = 2, Class = "flood_arccw_bo2_m1216", Name = "SRM 1216", Price = 70000, Ammo = 12, AmmoClass = "Buckshot", Damage = 25, DonatorOnly = false}
 
 -- Submachine Gun
-Flood_Weapons[32] = {Model = "models/weapons/arccw/c_waw_thompson.mdl", Group = 3, Class = "flood_arccw_waw_thompson", Name = "M1A1 Thompson", Price = 6200, Ammo = 64, AmmoClass = "Pistol", Damage = 12, DonatorOnly = false}
-Flood_Weapons[33] = {Model = "models/weapons/arccw/c_waw_mp40.mdl", Group = 3, Class = "flood_arccw_waw_mp40", Name = "MP40", Price = 9300, Ammo = 64, AmmoClass = "Pistol", Damage = 20, DonatorOnly = false}
-Flood_Weapons[34] = {Model = "models/weapons/arccw/c_waw_ppsh41.mdl", Group = 3, Class = "flood_arccw_waw_ppsh41", Name = "PPSh-41", Price = 18600, Ammo = 128, AmmoClass = "Pistol", Damage = 24, DonatorOnly = false}
-Flood_Weapons[35] = {Model = "models/weapons/arccw/c_bo1_sten.mdl", Group = 3, Class = "flood_arccw_bo1_sten", Name = "Sten Mk II", Price = 23250, Ammo = 64, AmmoClass = "Pistol", Damage = 50, DonatorOnly = false}
-Flood_Weapons[36] = {Model = "models/weapons/arccw/c_waw_type100.mdl", Group = 3, Class = "flood_arccw_waw_type100", Name = "Type 100/44", Price = 34875, Ammo = 64, AmmoClass = "Pistol", Damage = 75, DonatorOnly = false}
-Flood_Weapons[37] = {Model = "models/weapons/arccw/c_bo2_mp5.mdl", Group = 3, Class = "flood_arccw_bo2_mp5", Name = "HK MP5A3", Price = 52313, Ammo = 64, AmmoClass = "Pistol", Damage = 113, DonatorOnly = false}
-Flood_Weapons[38] = {Model = "models/weapons/arccw/c_bo1_uzi.mdl", Group = 3, Class = "flood_arccw_bo1_uzi", Name = "IMI Uzi", Price = 78470, Ammo = 64, AmmoClass = "Pistol", Damage = 170, DonatorOnly = false}
-Flood_Weapons[39] = {Model = "models/weapons/arccw/c_bo1_mac11.mdl", Group = 3, Class = "flood_arccw_bo1_mac11", Name = "Ingram MAC-11", Price = 117705, Ammo = 64, AmmoClass = "Pistol", Damage = 255, DonatorOnly = false}
-Flood_Weapons[40] = {Model = "models/weapons/arccw/c_bo1_pm63.mdl", Group = 3, Class = "flood_arccw_bo1_pm63", Name = "PM-63 RAK", Price = 2000, Ammo = 64, AmmoClass = "Pistol", Damage = 10, DonatorOnly = false}
-Flood_Weapons[41] = {Model = "models/weapons/arccw/c_bo1_skorpion.mdl", Group = 3, Class = "flood_arccw_bo1_skorpion", Name = "Skorpion Vz. 65", Price = 3000, Ammo = 64, AmmoClass = "Pistol", Damage = 15, DonatorOnly = false}
-Flood_Weapons[42] = {Model = "models/weapons/arccw/c_bo1_spectre.mdl", Group = 3, Class = "flood_arccw_bo1_spectre", Name = "Spectre M4", Price = 4500, Ammo = 64, AmmoClass = "Pistol", Damage = 22.5, DonatorOnly = false}
-Flood_Weapons[43] = {Model = "models/weapons/arccw/c_bo3_kuda.mdl", Group = 3, Class = "flood_arccw_bo3_kuda", Name = "Kuda AP9", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 306, DonatorOnly = false}
-Flood_Weapons[44] = {Model = "models/weapons/arccw/c_bo3_mp40.mdl", Group = 3, Class = "flood_arccw_bo3_mp40", Name = "MP40 (BO3)", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 306, DonatorOnly = false}
-Flood_Weapons[45] = {Model = "models/weapons/arccw/c_bo3_ppsh41.mdl", Group = 3, Class = "flood_arccw_bo3_ppsh41", Name = "PPSh-41 (BO3)", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 306, DonatorOnly = false}
-Flood_Weapons[46] = {Model = "models/weapons/arccw/c_bo3_sten3.mdl", Group = 3, Class = "flood_arccw_bo3_sten3", Name = "Sten Mk III", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 306, DonatorOnly = false}
-Flood_Weapons[47] = {Model = "models/weapons/arccw/w_bo2_thompson.mdl", Group = 3, Class = "flood_arccw_bo2_thompson", Name = "M1921AC Thompson", Price = 211869, Ammo = 64, AmmoClass = "Pistol", Damage = 459, DonatorOnly = false}
-Flood_Weapons[48] = {Model = "models/weapons/arccw/w_bo2_scorpion.mdl", Group = 3, Class = "flood_arccw_bo2_scorpion", Name = "Scorpion Evo 3 A1", Price = 423738, Ammo = 64, AmmoClass = "Pistol", Damage = 460, DonatorOnly = false}
-Flood_Weapons[49] = {Model = "models/weapons/arccw/w_bo2_vector.mdl", Group = 3, Class = "flood_arccw_bo2_vector", Name = "TDI Vector", Price = 635607, Ammo = 64, AmmoClass = "Pistol", Damage = 690, DonatorOnly = false}
+Flood_Weapons[32] = {Model = "models/weapons/arccw/c_waw_thompson.mdl", Group = 3, Class = "flood_arccw_waw_thompson", Name = "M1A1 Thompson", Price = 6200, Ammo = 64, AmmoClass = "Pistol", Damage = 6, DonatorOnly = false}
+Flood_Weapons[33] = {Model = "models/weapons/arccw/c_waw_mp40.mdl", Group = 3, Class = "flood_arccw_waw_mp40", Name = "MP40", Price = 9300, Ammo = 64, AmmoClass = "Pistol", Damage = 11, DonatorOnly = false}
+Flood_Weapons[34] = {Model = "models/weapons/arccw/c_waw_ppsh41.mdl", Group = 3, Class = "flood_arccw_waw_ppsh41", Name = "PPSh-41", Price = 18600, Ammo = 128, AmmoClass = "Pistol", Damage = 16, DonatorOnly = false}
+Flood_Weapons[35] = {Model = "models/weapons/arccw/c_bo1_sten.mdl", Group = 3, Class = "flood_arccw_bo1_sten", Name = "Sten Mk II", Price = 23250, Ammo = 64, AmmoClass = "Pistol", Damage = 21, DonatorOnly = false}
+Flood_Weapons[36] = {Model = "models/weapons/arccw/c_waw_type100.mdl", Group = 3, Class = "flood_arccw_waw_type100", Name = "Type 100/44", Price = 34875, Ammo = 64, AmmoClass = "Pistol", Damage = 26, DonatorOnly = false}
+Flood_Weapons[37] = {Model = "models/weapons/arccw/c_bo2_mp5.mdl", Group = 3, Class = "flood_arccw_bo2_mp5", Name = "HK MP5A3", Price = 52313, Ammo = 64, AmmoClass = "Pistol", Damage = 31, DonatorOnly = false}
+Flood_Weapons[38] = {Model = "models/weapons/arccw/c_bo1_uzi.mdl", Group = 3, Class = "flood_arccw_bo1_uzi", Name = "IMI Uzi", Price = 78470, Ammo = 64, AmmoClass = "Pistol", Damage = 36, DonatorOnly = false}
+Flood_Weapons[39] = {Model = "models/weapons/arccw/c_bo1_mac11.mdl", Group = 3, Class = "flood_arccw_bo1_mac11", Name = "Ingram MAC-11", Price = 117705, Ammo = 64, AmmoClass = "Pistol", Damage = 41, DonatorOnly = false}
+Flood_Weapons[40] = {Model = "models/weapons/arccw/c_bo1_pm63.mdl", Group = 3, Class = "flood_arccw_bo1_pm63", Name = "PM-63 RAK", Price = 2000, Ammo = 64, AmmoClass = "Pistol", Damage = 46, DonatorOnly = false}
+Flood_Weapons[41] = {Model = "models/weapons/arccw/c_bo1_skorpion.mdl", Group = 3, Class = "flood_arccw_bo1_skorpion", Name = "Skorpion Vz. 65", Price = 3000, Ammo = 64, AmmoClass = "Pistol", Damage = 51, DonatorOnly = false}
+Flood_Weapons[42] = {Model = "models/weapons/arccw/c_bo1_spectre.mdl", Group = 3, Class = "flood_arccw_bo1_spectre", Name = "Spectre M4", Price = 4500, Ammo = 64, AmmoClass = "Pistol", Damage = 56, DonatorOnly = false}
+Flood_Weapons[43] = {Model = "models/weapons/arccw/c_bo3_kuda.mdl", Group = 3, Class = "flood_arccw_bo3_kuda", Name = "Kuda AP9", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 61, DonatorOnly = false}
+Flood_Weapons[44] = {Model = "models/weapons/arccw/c_bo3_mp40.mdl", Group = 3, Class = "flood_arccw_bo3_mp40", Name = "MP40 (BO3)", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 66, DonatorOnly = false}
+Flood_Weapons[45] = {Model = "models/weapons/arccw/c_bo3_ppsh41.mdl", Group = 3, Class = "flood_arccw_bo3_ppsh41", Name = "PPSh-41 (BO3)", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 71, DonatorOnly = false}
+Flood_Weapons[46] = {Model = "models/weapons/arccw/c_bo3_sten3.mdl", Group = 3, Class = "flood_arccw_bo3_sten3", Name = "Sten Mk III", Price = 141246, Ammo = 64, AmmoClass = "Pistol", Damage = 76, DonatorOnly = false}
+Flood_Weapons[47] = {Model = "models/weapons/arccw/w_bo2_thompson.mdl", Group = 3, Class = "flood_arccw_bo2_thompson", Name = "M1921AC Thompson", Price = 211869, Ammo = 64, AmmoClass = "Pistol", Damage = 81, DonatorOnly = false}
+Flood_Weapons[48] = {Model = "models/weapons/arccw/w_bo2_scorpion.mdl", Group = 3, Class = "flood_arccw_bo2_scorpion", Name = "Scorpion Evo 3 A1", Price = 423738, Ammo = 64, AmmoClass = "Pistol", Damage = 86, DonatorOnly = false}
+Flood_Weapons[49] = {Model = "models/weapons/arccw/w_bo2_vector.mdl", Group = 3, Class = "flood_arccw_bo2_vector", Name = "TDI Vector", Price = 635607, Ammo = 64, AmmoClass = "Pistol", Damage = 91, DonatorOnly = false}
 
 -- Medical Supplies
 Flood_Weapons[50] = {Model = "models/weapons/darky_m/w_syringe_v2.mdl", Group = 4, Class = "flood_rust_syringe", Name = "Medical Syringe v2", Price = 2400, Ammo = 0, AmmoClass = nil, Damage = 0, DonatorOnly = false}
