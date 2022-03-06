@@ -113,7 +113,11 @@ function GM:EntityTakeDamage(ent, dmginfo)
 					elseif attacker:GetActiveWeapon():GetClass() == "weapon_crowbar" then
 						ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") - 20)
 					elseif attacker:GetActiveWeapon():GetClass() == "weapon_stunstick" then
-						ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") + 120)
+						if ent:GetNWInt("CurrentPropHealth") >= ent:GetNWInt("BasePropHealth") then
+							ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("BasePropHealth"))
+						elseif ent:GetNWInt("CurrentPropHealth") < ent:GetNWInt("BasePropHealth") then
+							ent:SetNWInt("CurrentPropHealth", ent:GetNWInt("CurrentPropHealth") + 80)
+						end
 					else
 						for _, Weapon in pairs(Flood_Weapons) do
 							if attacker:GetActiveWeapon():GetClass() == Weapon.Class then
