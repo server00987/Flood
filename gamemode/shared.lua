@@ -6,7 +6,7 @@ GM.Version  = "1.0.0"
 GM.Email 	= "n/a"
 GM.Website 	= "n/a"
 
-Flood_Version = "Beta 1.1.3"
+Flood_Version = "Beta 1.1.7"
 
 -- Include Shared files
 for _, file in pairs (file.Find("flood/gamemode/shared/*.lua", "LUA")) do
